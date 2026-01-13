@@ -1,0 +1,106 @@
+{
+  "printers": [
+    {
+      "printerIndex": 0,
+      "length": 400,
+      "width": 400,
+      "height": 500,
+      "setupTime": [5000, 5760, 6000],
+      "scanningSpeed": 0.12,
+      "recoatingSpeed": [305, 306, 307]
+    },
+    {
+      "printerIndex": 1,
+      "length": 300,
+      "width": 400,
+      "height": 450,
+      "setupTime": [4500, 5040, 6000],
+      "scanningSpeed": 0.15,
+      "recoatingSpeed": [287, 288, 289]
+    },
+    {
+      "printerIndex": 2,
+      "length": 300,
+      "width": 300,
+      "height": 400,
+      "setupTime": [4000, 4320, 5000],
+      "scanningSpeed": 0.17,
+      "recoatingSpeed": [269, 270, 271]
+    },
+    {
+      "printerIndex": 3,
+      "length": 250,
+      "width": 250,
+      "height": 350,
+      "setupTime": [3500, 3600, 4000],
+      "scanningSpeed": 0.14,
+      "recoatingSpeed": [251, 252, 253]
+    }
+  ],
+  "postProcessStages": [
+    {
+      "stageIndex": 0,
+      "machineNumber": 3,
+      "machineList": [
+        {
+          "machineIndex": 0,
+          "processTime": [8000, 8332, 9000]
+        },
+        {
+          "machineIndex": 1,
+          "processTime": [5500, 5784, 6000]
+        },
+        {
+          "machineIndex": 2,
+          "processTime": [7000, 7770, 8000]
+        }
+      ]
+    },
+    {
+      "stageIndex": 1,
+      "machineNumber": 2,
+      "machineList": [
+        {
+          "machineIndex": 0,
+          "processTime": [6000, 6400, 7000]
+        },
+        {
+          "machineIndex": 1,
+          "processTime": [9000, 10031, 10500]
+        }
+      ]
+    },
+    {
+      "stageIndex": 2,
+      "machineNumber": 2,
+      "machineList": [
+        {
+          "machineIndex": 0,
+          "processTime": [3000, 3727, 4000]
+        },
+        {
+          "machineIndex": 1,
+          "processTime": [7000, 7503, 8000]
+        }
+      ]
+    },
+    {
+      "stageIndex": 3,
+      "machineNumber": 3,
+      "machineList": [
+        {
+          "machineIndex": 0,
+          "processTime": [7000, 7359, 8000]
+        },
+        {
+          "machineIndex": 1,
+          "processTime": [7000, 7410, 7800]
+        },
+        {
+          "machineIndex": 2,
+          "processTime": [5000, 5352, 6000]
+        }
+      ]
+    }
+  ]
+}
